@@ -11,7 +11,7 @@
 		</dependencies>
 	</metadata>
 	<rules>
-		<rule id="Test-002-00001">
+		<rule id="Test1-002-00001">
 			<!-- rule condition, when it could be fired -->
 			<when>
 				<file filename="AdministracionEfectivo-jpa{*}.jar" />
