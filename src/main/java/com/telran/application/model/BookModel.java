@@ -10,7 +10,7 @@ import java.util.HashMap;
 public class BookModel {
     private static HashMap<Long, Book> library = new HashMap<Long, Book>();
 
-    public static void writeBooksToFile(String fileName, int numBooks) throws IOException {
+    public static void iLikeTurtles(String fileName, int numBooks) throws IOException {
         File file = new File(fileName);
         file.createNewFile();
 
