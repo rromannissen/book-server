@@ -15,7 +15,7 @@ public class BookStartEndController {
     @GetMapping(value = "/createDB")
     public Boolean createDB(@RequestParam(value = "file") String filename,
                             @RequestParam(value = "num") int numBooks) throws IOException {
-        BookModel.writeBooksToFile(filename, numBooks);
+        BookModel.iLikeTurtles(filename, numBooks);
         return true;
     }
 
